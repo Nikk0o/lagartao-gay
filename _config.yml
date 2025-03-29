@@ -1,0 +1,25 @@
+source: ./src
+destination: ./_site
+
+layouts: _layouts
+includes_dir: _includes
+sass:
+  sass_dir: _sass
+
+collections:
+  arts:
+    output: false
+    permalink: /art/
+    name: Galeria
+
+defaults:
+  - scope:
+      path: "gallery"
+    values:
+      image: true
+
+  - scope:
+      type: arts
+    values:
+      image: false
+
