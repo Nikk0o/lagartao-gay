@@ -46,14 +46,11 @@
 	display: flex;
 	justify-content: center;
 	margin: auto auto;
-	margin-bottom: 5px;
+	margin-bottom: 10px;
 	z-index: 1;
 
 	width: 360px;
 	height: 30px;
-	background-color: rgba(255, 255, 255, 0);
-
-	border-radius: 10px;
 }
 
 .bg {
@@ -84,7 +81,7 @@
 
 .content {
 	display: flex;
-	width: 50%;
+	width: 47%;
 	height: auto;
 	justify-content: center;
 
@@ -98,6 +95,6 @@
 }
 
 .gallery-img {
-	max-width: 30%;
+	max-width: 25%;
 	margin: 10px 10px;
 }
