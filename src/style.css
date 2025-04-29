@@ -19,18 +19,6 @@
 	font-family: Garamond;
 }
 
-.page {
-	width: 80px;
-	height: 20px;
-	margin-top: 5px;
-	background-color: transparent;
-	border-top: 0px;
-	border-bottom: 0px;
-	border: 0px;
-
-	color: white;
-}
-
 .blur {
 	top: 0;
 	left: 0;
@@ -42,14 +30,14 @@
 	backdrop-filter: blur(10px);
 }
 
-.pages {
+.coisas {
 	display: flex;
 	justify-content: center;
-	margin: auto auto;
-	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
 	z-index: 1;
 
-	width: 360px;
+	width: auto;
 	height: 30px;
 }
 
