@@ -1,5 +1,0 @@
----
-title: "mabeco"
-date: "2024-02-17 00:00:00"
-imagepath: "/gallery/mabeco.jpg"
----

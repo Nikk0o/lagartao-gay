@@ -10,5 +10,6 @@ stdenv.mkDerivation {
   buildPhase = "jekyll build";
   installPhase = ''
     mkdir -p /var/www
+    rm /var/www/*
     cp _site/* /var/www'';
 }
