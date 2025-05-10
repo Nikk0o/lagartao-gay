@@ -3,6 +3,7 @@ destination: ./_site
 
 layouts: _layouts
 includes_dir: _includes
+
 sass:
   sass_dir: _sass
 
