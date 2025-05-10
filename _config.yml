@@ -11,9 +11,3 @@ defaults:
       path: "gallery"
     values:
       image: true
-
-  - scope:
-      type: arts
-    values:
-      image: false
-
