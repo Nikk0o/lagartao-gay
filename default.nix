@@ -6,9 +6,9 @@ stdenv.mkDerivation {
   src = ./.;
   buildInputs = with pkgs; [ jekyll ];
 
-  dontUnpack = true;
+  dontUnpack = false;
   buildPhase = "jekyll build";
   installPhase = ''
     mkdir $out
-    cp ./_site/* $out'';
+    cp ./_site/* $out -r'';
 }
